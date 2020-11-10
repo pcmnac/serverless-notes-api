@@ -13,7 +13,7 @@ export default function handler(lambda) {
       statusCode = 200;
     } catch (e) {
       // Print debug messages
-      debug.flush(e)
+      debug.flush(e);
       // Print out the full error
       body = { error: e.message };
       statusCode = 500;
