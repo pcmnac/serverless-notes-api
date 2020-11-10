@@ -1,11 +1,11 @@
 npx aws-api-gateway-cli-test \
---username='YOUR_USER_EMAIL' \
---password='YOUR_USER_PASSWORD' \
---user-pool-id='YOUR_COGNITO_USER_POOL_ID' \
---app-client-id='YOUR_COGNITO_APP_CLIENT_ID' \
+--username='admin@example.com' \
+--password='Passw0rd!' \
+--user-pool-id='us-east-1_ZPIAhMX1c' \
+--app-client-id='6823aee93dp223790cf5d9btn9' \
 --cognito-region='us-east-1' \
---identity-pool-id='YOUR_IDENTITY_POOL_ID' \
---invoke-url='YOUR_DEV_API_GATEWAY_URL' \
+--identity-pool-id='us-east-1:1e65d5fe-0f46-4059-a24b-93307e781daf' \
+--invoke-url='https://notes-api.dsplay.tv/prod' \
 --api-gateway-region='us-east-1' \
 --path-template='/notes' \
 --method='POST' \
