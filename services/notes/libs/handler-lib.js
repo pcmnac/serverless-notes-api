@@ -1,4 +1,4 @@
-import debug from "./debug-lib";
+import * as debug from "./debug-lib";
 
 export default function handler(lambda) {
   return async function (event, context) {
